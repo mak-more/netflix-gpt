@@ -4,7 +4,7 @@
 # Install & Config. Tailwind.css (https://tailwindcss.com/docs/guides/create-react-app)
 - npm install -D tailwindcss
 - npx tailwindcss init
-- tailwind.config.js (add code from above url)
+- tailwind.config.js (add code in this file from above url)
 - @tailwind base; @tailwind components; @tailwind utilities; (add in index.css)
 
 # Features NetFlix has
@@ -23,3 +23,7 @@
 - Netflix GPT
   - Search Bar
   - Movie Suggestions
+
+  # MISC
+  - Formik (https://formik.org/ - use this library for big forms)
+  - 
