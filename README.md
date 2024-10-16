@@ -26,4 +26,18 @@
 
   # MISC
   - Formik (https://formik.org/ - use this library for big forms)
-  - 
+  - Form Validation
+  - useRef Hook
+  - Regex Validation
+  - Install, Config. Firebase & create project into Firebase (https://firebase.google.com/)
+  
+ # Firebase
+ - firebase login (Sign in to Google)
+ - firebase init (Initiate your project)
+ - firebase deploy (When you're ready, deploy your web app)
+
+ # TMDB (The Movie DataBase API)
+ - Login In
+ - Register TMDB API & create an app & get access token
+ - Get data from TMDB "Now Playing Movies"
+ - 

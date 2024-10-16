@@ -1,8 +1,22 @@
-import React from 'react';
+import Header from "./Header";
+import useNowPlayingMovies from "../hooks/useNowPlayingMovies";
+import MainContainer from "./MainContainer";
+import SecondaryContainer from "./SecondaryContainer";
 
 const Browse = () => {
+
+  useNowPlayingMovies();
+
   return (
-    <div className="container mx-auto m-4">Browse</div>
+    <div>
+      <Header />
+      <div className='relative top-20'>
+        <div className="container mx-auto m-4">Browse
+          <MainContainer />
+          <SecondaryContainer />
+        </div>
+      </div>
+    </div>    
   );
 }
 
