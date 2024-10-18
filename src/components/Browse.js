@@ -11,7 +11,7 @@ const Browse = () => {
     <div>
       <Header />
       <div className='relative top-20'>
-        <div className="container mx-auto m-4">Browse
+        <div>
           <MainContainer />
           <SecondaryContainer />
         </div>
