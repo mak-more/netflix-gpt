@@ -40,4 +40,7 @@
  - Login In
  - Register TMDB API & create an app & get access token
  - Get data from TMDB "Now Playing Movies"
+ 
+ # GPT
+ - GPT search in header
  - 
