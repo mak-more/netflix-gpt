@@ -20,8 +20,8 @@ const handleLanguageChange = (e) => {
   return (
     <div className='relative z-50'>
       <div className='fixed top-0 left-0 right-0 bg-white shadow-md px-4 py-4'>
-        <div className='flex justify-between items-center'>
-          <div className="w-60"><img src={LOGO} alt="Logo" className="" width="340" height="70" /></div>
+        <div className='flex justify-between items-center md:flex-row flex-col'>
+          <div className="w-60 md:mb-0 mb-3"><img src={LOGO} alt="Logo" className="" width="340" height="70" /></div>
           <div className="">
             {showGptSearch && (
               <select className='py-1 px-3 bg-slate-300 rounded-lg' onChange={handleLanguageChange}>

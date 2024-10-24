@@ -30,6 +30,14 @@
   - useRef Hook
   - Regex Validation
   - Install, Config. Firebase & create project into Firebase (https://firebase.google.com/)
+  - Open AI - https://platform.openai.com (Login)
+  - Install "open ai" library - "npm install openai"
+  - Netflix GPT with Open Ai
+  - Memoization (API calls only once)
+    - Add (.env) file - 'to stores API Keys'.
+    - Token & Ignore it on (.gitignore) file.
+    - Call those Keys in (constant.js) file.
+  - responsive header by 'Tailwind CSS'  
   
  # Firebase
  - firebase login (Sign in to Google)

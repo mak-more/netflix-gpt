@@ -4,9 +4,11 @@ import GptMovieSuggestions from './GptMovieSuggestions';
 
 const GptSearch = () => {
   return (
-    <div className='w-max relative z-50 m-auto'>
-      <GptSearchBar />
-      <GptMovieSuggestions />     
+    <div className='relative md:top-20 top-32'>
+      <div className='container mx-auto mt-4 text-center'>
+        <GptSearchBar />
+        <GptMovieSuggestions />     
+      </div>
     </div>
   );
 }

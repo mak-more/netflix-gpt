@@ -4,6 +4,7 @@ import { IMG_CDN_URL } from '../utils/constant';
 const MovieCard = ({ posterPath, originalTitle }) => {
   // console.log(posterPath,'posterPath');
   // console.log(originalTitle,'originalTitle');
+  if(!posterPath) return null;
 
   return (
     <li className='m-2 w-max'>
